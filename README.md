@@ -126,8 +126,7 @@ Ensure the following software are installed: Make, CMake, GCC, and Git.  To setu
 
     git clone https://github.com/nasa/cFS.git
     cd cFS
-    git submodule init
-    git submodule update
+    git submodule update --init --recursive
 
 Copy in the default makefile and definitions:
 
